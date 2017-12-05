@@ -1,9 +1,8 @@
 public class Advent17_03_TaxiMemory {
     public static void main(String[] args) {
         int number = 277678;
-//        System.out.println(Advent16_01_Taxi.exitTaxi(taxiNorthSouthSpiral(number),taxiEastWestSpiral(number)));
-  //      System.out.println(taxiEastWestSpiral(number));
-    //    System.out.println(taxiNorthSouthSpiral(number));
+        System.out.println(Advent16_01_Taxi.exitTaxi(taxiNorthSouthSpiral(number),taxiEastWestSpiral(number)));
+
         System.out.println(secondTry(number));
     }
 

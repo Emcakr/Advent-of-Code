@@ -10,10 +10,7 @@ public class Advent17_02 {
 
         int checksum = 0;
         double checksum2 = 0;
-        String input;
-        System.out.println("enter numbers, empty line terminates");
-
-        input = "3751\t3769\t2769\t2039\t2794\t240\t3579\t1228\t4291\t220\t324\t3960\t211\t1346\t237\t1586\n" +
+        String input = "3751\t3769\t2769\t2039\t2794\t240\t3579\t1228\t4291\t220\t324\t3960\t211\t1346\t237\t1586\n" +
                 "550\t589\t538\t110\t167\t567\t99\t203\t524\t288\t500\t111\t118\t185\t505\t74\n" +
                 "2127\t1904\t199\t221\t1201\t250\t1119\t377\t1633\t1801\t2011\t1794\t394\t238\t206\t680\n" +
                 "435\t1703\t1385\t1461\t213\t1211\t192\t1553\t1580\t197\t571\t195\t326\t1491\t869\t1282\n" +
@@ -60,8 +57,7 @@ public class Advent17_02 {
             int check = Integer.parseInt(text[i]);
             if (check<low){
                 low=check;
-            }
-            if (check>high){
+            }else if (check>high){
                 high=check;
             }
         }

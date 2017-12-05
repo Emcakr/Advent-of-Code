@@ -3,7 +3,7 @@ import javafx.beans.binding.When;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Advent17_02 {
+public class Advent17_02_CorruptionChecksum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> list = new ArrayList<>();
